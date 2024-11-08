@@ -1,7 +1,7 @@
 import cohere
 
 # Initialize Cohere client
-co = cohere.Client("pdg0waOE6lYfzWa9fYGzriL1uDFp7opLaaX7QMLR")
+co = cohere.Client("API KEY")
 
 def get_completion(prompt):
     response = co.generate(
